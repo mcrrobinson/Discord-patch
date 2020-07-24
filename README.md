@@ -24,6 +24,7 @@ Friend View                |  Server View
 
 The last one in the legend - the accent,  it affects the TV icon in the servers with Camera's enabled.
 
+## API
 #### API Request
 https://discordapp.com/api/v6/channels/channel_id/messages
 
