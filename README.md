@@ -1,7 +1,7 @@
 # Discord-patch
 Patch client for Discord. Used for my bots.
 
-Solarized dark             |  Solarized Ocean
+Friend View                |  Server View
 :-------------------------:|:-------------------------:
 ![](images/discordcss.jpg)  |  ![](images/discord2css.jpg)
 
