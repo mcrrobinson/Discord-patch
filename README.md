@@ -28,11 +28,14 @@ The last one in the legend - the accent,  it affects the TV icon in the servers 
 https://discordapp.com/api/v6/channels/channel_id/messages
 
 #### Payload
+<pre>
 {
     "content":"Text sent to the text channel","nonce":"XXXXXXXXXXXXXXXXXX","tts":false
 }
+</pre>
 
 #### API Response
+<pre>
 {
     "id": "XXXXXXXXXXXXXXXXXX", 
     "type": 0, 
@@ -58,3 +61,4 @@ https://discordapp.com/api/v6/channels/channel_id/messages
     "flags": 0, 
     "nonce": "XXXXXXXXXXXXXXXXXXXX"
 }
+</pre>
