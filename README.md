@@ -7,9 +7,9 @@ Friend View                |  Server View
 
 ## Legend
 <pre>
---background-primary: #0055ff;
---background-secondary: #ff00bc;
---background-secondary-alt: #00ff14;
---background-tertiary: #fbff10;
---background-accent: #00ffe7;
+--background-primary: blue;
+--background-secondary: pink;
+--background-secondary-alt: green;
+--background-tertiary: yellow;
+--background-accent: turquoise;
 </pre>
