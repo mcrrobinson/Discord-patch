@@ -1,8 +1,8 @@
 # Discord-patch
 Patch client for Discord. Used for my bots.
 
-<img style="width:50%;" src="images/discordcss.jpg">
-<img style="width:50%;" src="images/discord2css.jpg">
+<img src="images/discordcss.jpg">
+<img src="images/discord2css.jpg">
 
 ## Legend
 --background-primary: #0055ff;
