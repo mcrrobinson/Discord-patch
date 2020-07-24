@@ -1,18 +1,28 @@
 # Discord-patch
-Patch client for Discord. Used for my bots.
+## Introduction
+Patch client for Discord. Used for my bots. Due to the fact that Discord is written with Electron it it's simply a chromium instance which means that it uses HTML, Javascript and CSS in order to draw elements on the page. This makes it easy to see the behind the scenes by opening the developer view. The bind for this is the same as in Chrome:
+```
+CRTL + SHIFT + I
+```
+This will open the developer options including the CSS navigation, API requests and the console suggesting you work for Discord. The bind is the same accross; Linux, MacOS and Windows.
+
+## CSS Main Elements
+### Views
 
 Friend View                |  Server View
 :-------------------------:|:-------------------------:
 ![](images/discordcss.jpg)  |  ![](images/discord2css.jpg)
 
-## Legend
+### Legend
 <pre>
---background-primary: #0055ff;
---background-secondary: #ff00bc;
---background-secondary-alt: #00ff14;
---background-tertiary: #fbff10;
---background-accent: #00ffe7;
+--background-primary: blue;
+--background-secondary: pink;
+--background-secondary-alt: green;
+--background-tertiary: yellow;
+--background-accent: turquoise;
 </pre>
+
+The last one in the legend - the accent,  it affects the TV icon in the servers with Camera's enabled.
 
 #### API Request
 https://discordapp.com/api/v6/channels/channel_id/messages
