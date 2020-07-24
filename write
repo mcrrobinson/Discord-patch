@@ -1,0 +1,2 @@
+asar pack src core.asar
+cp core.asar ~/.config/discord/0.0.10/modules/discord_desktop_core

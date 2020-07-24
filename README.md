@@ -6,6 +6,29 @@ CRTL + SHIFT + I
 ```
 This will open the developer options including the CSS navigation, API requests and the console suggesting you work for Discord. The bind is the same accross; Linux, MacOS and Windows.
 
+## Reverse Engineering Discord
+### How to unpack
+Copy the contents from the desktop core folder to the current directory then extract the contents using asar into a folder called "src".
+```
+cp ~/.config/discord/0.0.10/modules/discord_desktop_core/core.asar .
+asar extract core.asar src
+```
+
+### How to repack and load
+Pack the source folder into a asar file.
+```
+asar pack src core.asar
+```
+
+Make a backup of the file in case your changes break the application.
+```
+cp ~/.config/discord/0.0.10/modules/discord_desktop_core/core.asar ~/.config/discord/0.0.10/modules/discord_desktop_core/core_backup.asar
+```
+Finally copy the edited discord application to the directory containing it.
+```
+cp core.asar ~/.config/discord/0.0.10/modules/discord_desktop_core
+```
+
 ## CSS Main Elements
 ### Views
 

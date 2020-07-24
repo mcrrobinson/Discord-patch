@@ -1,0 +1,17 @@
+# Copy the existing core to the source file.
+cp ~/.config/discord/0.0.10/modules/discord_desktop_core/core.asar .
+
+# Extract the movied file.
+asar extract core.asar src
+
+# Pack the changes.
+asar pack src core.asar
+
+# Change the existing to backup file.
+cp ~/.config/discord/0.0.10/modules/discord_desktop_core/core.asar ~/.config/discord/0.0.10/modules/discord_desktop_core/core_backup.asar
+
+# Remove the existing Core
+rm ~/.config/discord/0.0.10/modules/discord_desktop_core/core.asar
+
+# Copy the newly packed core to the directory.
+cp core.asar ~/.config/discord/0.0.10/modules/discord_desktop_core
