@@ -1,8 +1,7 @@
 # Discord-patch
 Patch client for Discord. Used for my bots.
 
-<img src="images/discordcss.jpg" width="50%">
-<img src="images/discord2css.jpg" width="50%">
+![Server View](images/discordcss.jpg "Friend View") ![Server View](images/discord2css.jpg "Server View")
 
 ## Legend
 <pre>
