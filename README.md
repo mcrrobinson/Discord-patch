@@ -7,6 +7,12 @@ CRTL + SHIFT + I
 This will open the developer options including the CSS navigation, API requests and the console suggesting you work for Discord. The bind is the same accross; Linux, MacOS and Windows.
 
 ## Reverse Engineering Discord
+### Requirements
+- Debian Based OS
+- Asar Extractor
+```
+sudo apt install -y npm && npm install -g asar
+```
 ### How to unpack
 Copy the contents from the desktop core folder to the current directory then extract the contents using asar into a folder called "src".
 ```
