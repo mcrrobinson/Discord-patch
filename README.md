@@ -4,7 +4,7 @@ Patch client for Discord. Used for my bots. Due to the fact that Discord is writ
 ```
 CRTL + SHIFT + I
 ```
-This will open the developer options including the CSS navigation, API requests and the console suggesting you work for Discord.
+This will open the developer options including the CSS navigation, API requests and the console suggesting you work for Discord. The bind is the same accross; Linux, MacOS and Windows.
 
 ## CSS Main Elements
 ### Views
